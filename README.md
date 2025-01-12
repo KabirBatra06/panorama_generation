@@ -1,5 +1,9 @@
 # Panorama_generation
-# Explanation of Solution
+
+Here I implement a fully automated approach for robust homography estimation and subsequently refine it using Nonlinear Least-Squares minimization approaches such as LevenbergMarquardt (LM) algorithm.
+I do the above so that I can generate a panoramic view by “stitching” together five (or more) overlapping views of the same scene. This is also known as image mosaicing.
+
+# Explanation of Method
 
 ## Interest Point Detection Using SIFT
 
