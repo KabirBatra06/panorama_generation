@@ -1,4 +1,4 @@
-# panorama_generation
+# Panorama_generation
 # Explanation of Solution
 
 ## Interest Point Detection Using SIFT
