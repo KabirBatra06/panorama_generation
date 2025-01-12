@@ -168,3 +168,21 @@ The first step here is to estimate the bounds of the final output so that we can
 Next, since the LM output gives us the homographies between adjacent images, we need to convert all the homographies to a common frame. For this, the common frame I chose was the frame of the middle-most image.
 
 The homographies for the images before the middle image are obtained by multiplying all the homographies that lie between it and the middle image. The homographies for the images after the middle image are obtained by taking the inverse of the multiplication of all the homographies that lie between the middle image and itself. This gives us all the homographies in the common frame of the middle image. Finally, all these homographies are applied to the corresponding images, and they are all warped and projected onto the final image.
+
+## Results
+
+# Original Images
+
+<p align="center">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/1.jpg" width="350" title="img1">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/2.jpg" width="350" title="img2">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/3.jpg" width="350" title="img3">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/4.jpg" width="350" title="img4">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/5.jpg" width="350" title="img5">
+ <br>
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/msee1.jpg" width="350" title="img1">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/msee2.jpg" width="350" title="img2">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/msee3.jpg" width="350" title="img3">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/msee4.jpg" width="350" title="img4">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/msee5.jpg" width="350" title="img5">
+</p>
