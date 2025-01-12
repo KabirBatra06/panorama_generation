@@ -169,9 +169,9 @@ Next, since the LM output gives us the homographies between adjacent images, we 
 
 The homographies for the images before the middle image are obtained by multiplying all the homographies that lie between it and the middle image. The homographies for the images after the middle image are obtained by taking the inverse of the multiplication of all the homographies that lie between the middle image and itself. This gives us all the homographies in the common frame of the middle image. Finally, all these homographies are applied to the corresponding images, and they are all warped and projected onto the final image.
 
-## Results
+# Results
 
-# Original Images
+## Original Images
 
 <p align="center">
   <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/1.jpg" width="350" title="img1">
@@ -186,3 +186,10 @@ The homographies for the images before the middle image are obtained by multiply
   <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/msee4.jpg" width="350" title="img4">
   <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/msee5.jpg" width="350" title="img5">
 </p>
+
+## Generated Panorama
+<p align="center">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/outputfinalfountain.jpg" width="350" height=250 title="img1">
+  <img src="https://github.com/KabirBatra06/panorama_generation/blob/main/outputmsee.jpg" width="350" height=250 title="img2">
+</p>
+
